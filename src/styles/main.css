@@ -1,0 +1,26 @@
+.tables-list {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto; }
+  .tables-list .tables-list-item {
+    min-width: 150px;
+    max-width: 150px;
+    margin: 14px;
+    border: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center; }
+    .tables-list .tables-list-item .panel-heading {
+      color: white; }
+    .tables-list .tables-list-item .panel-heading, .tables-list .tables-list-item .panel-footer {
+      background-image: linear-gradient(to bottom, #337ab7 0, #2e6da4 100%); }
+    .tables-list .tables-list-item .panel-body {
+      background-color: rgba(89, 97, 145, 0.55); }
+    .tables-list .tables-list-item .fa-user {
+      padding: 4px; }
+    .tables-list .tables-list-item .fa-user.active {
+      color: white; }
+
+/*# sourceMappingURL=main.css.map */
